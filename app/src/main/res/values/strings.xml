@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Wutsapper-WhatsApp&amp;WB Transfer</string>
+
+    <!--HomeActivity-->
+    <string name="text_toolbar_home">Wutsapper</string>
+    <string name="choose_transfer_app">Choose transfer App:</string>
+    <string name="android_to_iphone">Android to iPhone</string>
+    <string name="iphone_to_android">iPhone to Android</string>
+
+    <!--menu_home-->
+    <string name="id_whatsapp">WhatsApp</string>
+    <string name="id_wa_business">WA Business</string>
 </resources>

@@ -11,8 +11,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import com.google.android.material.snackbar.Snackbar
+import dagger.android.support.DaggerAppCompatActivity
 
-abstract class BaseActivity<V : ViewDataBinding, VM : BaseViewmodel<*>> : AppCompatActivity(),
+abstract class BaseActivity<V : ViewDataBinding, VM : BaseViewmodel<*>> : DaggerAppCompatActivity(),
     BaseFragment.Callback, BaseNavigator, DialogInterface {
 
     var viewDataBinding: V? = null
@@ -71,7 +72,7 @@ abstract class BaseActivity<V : ViewDataBinding, VM : BaseViewmodel<*>> : AppCom
         Toast.makeText(this,msg,Toast.LENGTH_LONG).show()
     }
 
-    override fun showSnackbar(title: String, msg: String, action: String?) {
+    override fun showSnackbar() {
         /**/
     }
 

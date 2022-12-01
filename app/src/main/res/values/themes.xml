@@ -1,3 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
+    <style name="choose_transfer_app" >
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="android_to_iphone" >
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">@dimen/_19sdp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="choose_app">
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
 </resources>

@@ -1,4 +1,6 @@
 package com.wondershare.wutsapper.transfer.base
 
-class BaseViewmodel<T> {
+import androidx.lifecycle.ViewModel
+
+abstract class BaseViewmodel<T>:ViewModel() {
 }
